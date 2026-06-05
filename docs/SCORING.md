@@ -8,24 +8,24 @@ Mỗi sinh viên nộp **một báo cáo duy nhất** (`report/REPORT.md`) bao g
 
 ## Điểm Cá Nhân (60 Điểm)
 
-| Hạng mục | Mô tả | Điểm |
-| :--- | :--- | :--- |
-| **Core Implementation** | Tất cả pytest tests pass (`pytest tests/ -v`) | 30 |
-| **My Approach** | Giải thích cách implement từng phần trong package src | 10 |
-| **Competition Results** | 5 benchmark queries chạy trên package src cá nhân, cùng bộ queries với nhóm | 10 |
-| **Warm-up** | Cosine similarity explanation + chunking math | 5 |
-| **Similarity Predictions** | 5 cặp câu, dự đoán vs actual, reflection | 5 |
+| Hạng mục                   | Mô tả                                                                       | Điểm |
+| :---------------------------| :----------------------------------------------------------------------------| :-----|
+| **Core Implementation**    | Tất cả pytest tests pass (`pytest tests/ -v`)                               | 30   |
+| **My Approach**            | Giải thích cách implement từng phần trong package src                       | 10   |
+| **Competition Results**    | 5 benchmark queries chạy trên package src cá nhân, cùng bộ queries với nhóm | 10   |
+| **Warm-up**                | Cosine similarity explanation + chunking math                               | 5    |
+| **Similarity Predictions** | 5 cặp câu, dự đoán vs actual, reflection                                    | 5    |
 
 ---
 
 ## Điểm Nhóm (40 Điểm)
 
-| Hạng mục | Mô tả | Điểm |
-| :--- | :--- | :--- |
-| **Strategy Design** | Giải thích strategy cá nhân + rationale + so sánh với baseline và với thành viên khác | 15 |
-| **Document Set Quality** | 5-10 tài liệu có chủ đề rõ ràng, metadata hữu ích, nguồn minh bạch | 10 |
-| **Retrieval Quality** | Precision trên 5 benchmark queries (top-3 có relevant chunks) | 10 |
-| **Demo** | Trình bày strategy, so sánh trong nhóm, bài học rút ra | 5 |
+| Hạng mục                 | Mô tả                                                                                 | Điểm |
+| :-------------------------| :--------------------------------------------------------------------------------------| :-----|
+| **Strategy Design**      | Giải thích strategy cá nhân + rationale + so sánh với baseline và với thành viên khác | 15   |
+| **Document Set Quality** | 5-10 tài liệu có chủ đề rõ ràng, metadata hữu ích, nguồn minh bạch                    | 10   |
+| **Retrieval Quality**    | Precision trên 5 benchmark queries (top-3 có relevant chunks)                         | 10   |
+| **Demo**                 | Trình bày strategy, so sánh trong nhóm, bài học rút ra                                | 5    |
 
 ### Cách Tính Retrieval Quality (10 điểm)
 

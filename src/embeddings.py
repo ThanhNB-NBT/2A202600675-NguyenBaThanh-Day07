@@ -13,7 +13,7 @@ class MockEmbedder:
 
     def __init__(self, dim: int = 64) -> None:
         self.dim = dim
-        self._backend_name = "mock embeddings fallback"
+        self._backend_name = "mock embeddings fallback 1"
 
     def __call__(self, text: str) -> list[float]:
         digest = hashlib.md5(text.encode()).hexdigest()

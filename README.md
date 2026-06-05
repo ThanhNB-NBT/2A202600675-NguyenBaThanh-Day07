@@ -40,6 +40,7 @@ File `.env` được tự động nạp khi chạy `main.py`. Với các Python 
 ### 1) Mặc định: Mock embedder
 
 Không cần cài gì thêm ngoài:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -74,6 +75,7 @@ PY
 
 - Model mặc định cho lựa chọn này là `text-embedding-3-small`
 - Có thể đổi model bằng:
+
 ```bash
 export OPENAI_EMBEDDING_MODEL=text-embedding-3-small
 ```
@@ -145,23 +147,25 @@ PY
 
 ## Các Giai Đoạn Lab
 
-| Giai Đoạn | Hoạt Động |
-|-----------|-----------|
-| Chuẩn bị tài liệu | Nhóm chọn domain, thu thập tài liệu, chuyển sang .md/.txt |
-| Lập trình cá nhân | Warm-up + implement tất cả TODO (cá nhân) |
-| Thiết kế strategy | Mỗi người thử strategy riêng, thống nhất 5 queries |
-| So sánh trong nhóm | Chạy benchmark, so sánh kết quả, chuẩn bị demo |
-| Demo & thảo luận | Trình bày strategy + so sánh, thảo luận liên nhóm |
+| Giai Đoạn          | Hoạt Động                                                 |
+| --------------------| -----------------------------------------------------------|
+| Chuẩn bị tài liệu  | Nhóm chọn domain, thu thập tài liệu, chuyển sang .md/.txt |
+| Lập trình cá nhân  | Warm-up + implement tất cả TODO (cá nhân)                 |
+| Thiết kế strategy  | Mỗi người thử strategy riêng, thống nhất 5 queries        |
+| So sánh trong nhóm | Chạy benchmark, so sánh kết quả, chuẩn bị demo            |
+| Demo & thảo luận   | Trình bày strategy + so sánh, thảo luận liên nhóm         |
 
 ---
 
 ## Nhiệm Vụ Cá Nhân (Phase 1)
 
 ### Đã implement sẵn (tham khảo)
+
 - `Document` dataclass — container cho text + metadata
 - `FixedSizeChunker` — sliding window chunking
 
 ### Cần implement
+
 - `SentenceChunker` — chia theo ranh giới câu
 - `RecursiveChunker` — thử từng separator theo thứ tự
 - `compute_similarity` — cosine similarity
