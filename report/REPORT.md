@@ -128,7 +128,7 @@ semantic_chunker = SemanticChunker(embedding_fn=embedder, threshold=0.5, max_chu
 
 ## 4. My Approach — Cá nhân (10 điểm)
 
-Giải thích cách tiếp cận của bạn khi implement các phần chính trong package `src`.
+Giải thích cách tiếp cận của bạn khi implement các phần chính trong package `src`
 
 ### Chunking Functions
 
